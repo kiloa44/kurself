@@ -1,0 +1,1118 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"time",
+				"time1"
+			],
+			[
+				"turt",
+				"Turtle"
+			],
+			[
+				"tim",
+				"timeForThread"
+			],
+			[
+				"timeF",
+				"timeForThread2"
+			],
+			[
+				"timeFor",
+				"timeForThread"
+			],
+			[
+				"Tread",
+				"timeForThread"
+			],
+			[
+				"ti",
+				"time"
+			],
+			[
+				"l",
+				"list_of_obs"
+			],
+			[
+				"try",
+				"try\tTry/Except"
+			],
+			[
+				"cre",
+				"createObstacles"
+			],
+			[
+				"a",
+				"append"
+			],
+			[
+				"list",
+				"list_of_obs"
+			],
+			[
+				"to",
+				"to_x"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"o",
+				"onkey"
+			],
+			[
+				"ob",
+				"obstacler"
+			],
+			[
+				"game",
+				"gameScreen"
+			],
+			[
+				"Blo",
+				"Block"
+			],
+			[
+				"blo",
+				"Block"
+			],
+			[
+				"get_",
+				"get_location"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"ga",
+				"gameScreen"
+			],
+			[
+				"get",
+				"get_location"
+			],
+			[
+				"some",
+				"someScreen"
+			],
+			[
+				"sp",
+				"space"
+			],
+			[
+				"spa",
+				"spaceIsPressed"
+			],
+			[
+				"for",
+				"forward"
+			],
+			[
+				"chec",
+				"checkIfReached"
+			],
+			[
+				"set",
+				"set_place"
+			],
+			[
+				"pe",
+				"penup"
+			],
+			[
+				"pen",
+				"penStatus"
+			],
+			[
+				"re",
+				"reached2"
+			],
+			[
+				"t",
+				"time2"
+			],
+			[
+				"fun",
+				"fun\tFunction"
+			],
+			[
+				"add",
+				"address"
+			],
+			[
+				"da",
+				"data-id"
+			],
+			[
+				"ge",
+				"getAttribute"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"va",
+				"var"
+			],
+			[
+				"ad",
+				"address"
+			],
+			[
+				"inp",
+				"input"
+			],
+			[
+				"d",
+				"datatosend"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"m",
+				"mobile"
+			],
+			[
+				"v",
+				"validation"
+			],
+			[
+				"s",
+				"self"
+			],
+			[
+				"bg",
+				"bgcolor"
+			],
+			[
+				"addin",
+				"addingForm"
+			],
+			[
+				"de",
+				"decode"
+			],
+			[
+				"hell",
+				"hello"
+			],
+			[
+				"he",
+				"hello"
+			],
+			[
+				"bt",
+				"btn-sm"
+			],
+			[
+				"up",
+				"updatethedata"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"data",
+				"datatosend"
+			],
+			[
+				"popu",
+				"popupInputs"
+			],
+			[
+				"getE",
+				"getElementsById"
+			],
+			[
+				"new",
+				"newelement"
+			],
+			[
+				"rea",
+				"realData"
+			],
+			[
+				"en",
+				"engineer"
+			],
+			[
+				"tel",
+				"telphone"
+			],
+			[
+				"sho",
+				"showmebyid"
+			],
+			[
+				"al",
+				"alert"
+			],
+			[
+				"sc",
+				"script"
+			],
+			[
+				"dir",
+				"dirctor"
+			],
+			[
+				"pri",
+				"print_developers"
+			],
+			[
+				"pi",
+				"print_developers"
+			],
+			[
+				"som",
+				"somebody2"
+			],
+			[
+				"p",
+				"print_developers"
+			],
+			[
+				"_",
+				"__init__"
+			],
+			[
+				"pr",
+				"printnum"
+			],
+			[
+				"ca",
+				"car2"
+			],
+			[
+				"print",
+				"print_porperties"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"op",
+				"oper"
+			],
+			[
+				"prin",
+				"print_v2"
+			],
+			[
+				"cl",
+				"calculator1"
+			],
+			[
+				"e",
+				"execute"
+			],
+			[
+				"fo",
+				"forEach"
+			],
+			[
+				"f",
+				"for\tfor (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"inpu",
+				"inputs"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"dele",
+				"delete"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"nu",
+				"numo"
+			],
+			[
+				"le",
+				"lengthl"
+			],
+			[
+				"len",
+				"lengthl"
+			],
+			[
+				"num",
+				"numo"
+			],
+			[
+				"req",
+				"reqheaders"
+			],
+			[
+				"mo",
+				"str_moviemane"
+			],
+			[
+				"pa",
+				"payload"
+			],
+			[
+				"goo",
+				"googletrans"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"ran",
+				"random"
+			],
+			[
+				"shi",
+				"shipmentype2"
+			],
+			[
+				"sh",
+				"shipmentype"
+			],
+			[
+				"cu",
+				"cusname"
+			],
+			[
+				"my",
+				"mylist1"
+			],
+			[
+				"ship",
+				"shipmentype"
+			],
+			[
+				"std",
+				"std0002"
+			],
+			[
+				"ra",
+				"raw_input"
+			],
+			[
+				"ma",
+				"max1"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"w",
+				"while\tWhile Loop"
+			],
+			[
+				"S",
+				"spChar"
+			],
+			[
+				"is",
+				"isalpha"
+			],
+			[
+				"int",
+				"int"
+			],
+			[
+				"ha",
+				"hashlib"
+			],
+			[
+				"n",
+				"new5num"
+			],
+			[
+				"ne",
+				"new4num"
+			],
+			[
+				"b",
+				"byte"
+			],
+			[
+				"an",
+				"an_angle"
+			],
+			[
+				"url",
+				"url"
+			],
+			[
+				"pre",
+				"prapare_myReq"
+			],
+			[
+				"h",
+				"http"
+			],
+			[
+				"str",
+				"str_moviemane"
+			],
+			[
+				"u",
+				"usernameR"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"my_r",
+				"my_rcookies"
+			],
+			[
+				"myp",
+				"mypass"
+			],
+			[
+				"r",
+				"rtext"
+			],
+			[
+				"j",
+				"jsonr"
+			],
+			[
+				"tgt",
+				"tgtPorts"
+			],
+			[
+				"tgtpor",
+				"tgtPorts"
+			],
+			[
+				"po",
+				"portScaner"
+			],
+			[
+				"tg",
+				"tgtHost"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/pgf/Downloads/javascriptform.html",
+			"settings":
+			{
+				"buffer_size": 6992,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/pgf/Downloads/index.html",
+			"settings":
+			{
+				"buffer_size": 5300,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/home/pgf/Downloads/showbyid.html",
+			"settings":
+			{
+				"buffer_size": 7578,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/pgf/Downloads/destroyeverywhatever.html",
+			"settings":
+			{
+				"buffer_size": 10797,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/pgf/Downloads/iscol.py",
+			"settings":
+			{
+				"buffer_size": 171,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"c",
+				"Set Syntax: Batch File"
+			]
+		],
+		"width": 461.0
+	},
+	"console":
+	{
+		"height": 178.0,
+		"history":
+		[
+			"install package",
+			"fk",
+			"f",
+			"php ",
+			"def what ():",
+			"help(def)",
+			"what",
+			"def what () :",
+			"def k():"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html/kurself",
+		"/var/www/html/kurself/app",
+		"/var/www/html/kurself/app/Http",
+		"/var/www/html/kurself/app/Http/Controllers",
+		"/var/www/html/kurself/app/Http/Middleware",
+		"/var/www/html/kurself/app/Providers",
+		"/var/www/html/kurself/bootstrap",
+		"/var/www/html/kurself/bootstrap/cache",
+		"/var/www/html/kurself/config",
+		"/var/www/html/kurself/database",
+		"/var/www/html/kurself/database/migrations",
+		"/var/www/html/kurself/routes"
+	],
+	"file_history":
+	[
+		"/home/pgf/Desktop/python code/back again/flappy games/flappyGame.py",
+		"/home/pgf/Desktop/firefox.desktop",
+		"/var/www/html/kurself/routes/api.php",
+		"/home/pgf/Desktop/python code/back again/flappy games/for_threads.py",
+		"/home/pgf/Desktop/shitcodes/words.py",
+		"/home/pgf/Desktop/shitcodes/hexstuff",
+		"/home/pgf/Desktop/numbers.txt",
+		"/home/pgf/Desktop/python code/day8/project2.py",
+		"/home/pgf/Desktop/thecardstuff.py",
+		"/var/www/html/kurself/database/migrations/2019_02_22_063249_create_humans_table.php",
+		"/home/pgf/Desktop/crossScript/XSStrike/xsstrike.py",
+		"/home/pgf/Desktop/sublime_text_3/sublime_plugin.py",
+		"/home/pgf/Desktop/numtheory.py",
+		"/media/pgf/Windows USB/bootmgr",
+		"/home/pgf/Desktop/usbstuff/autorun.inf",
+		"/home/pgf/Desktop/python code/for trying.py",
+		"/home/pgf/Desktop/python code/gamescode.py",
+		"/home/pgf/Desktop/python code/back again/new_version_game/new_game.py",
+		"/home/pgf/Desktop/ppg.py",
+		"/home/pgf/Downloads/updatedata.html",
+		"/home/pgf/Desktop/python code/back again/2/oop.py",
+		"/home/pgf/.cache/.fr-PtKynb/project/apple.py",
+		"/home/pgf/Desktop/python code/day10/listener.py",
+		"/home/pgf/Desktop/cryp.py",
+		"/home/pgf/Desktop/python code/day8/homework2.py",
+		"/etc/python2.7/sitecustomize.py",
+		"/home/pgf/Desktop/mystartup.py",
+		"/var/www/html/kurself/vendor/laravel/framework/src/Illuminate/Notifications/Messages/BroadcastMessage.php",
+		"/home/pgf/Downloads/updaedata.html",
+		"/var/www/html/serverstuff.php",
+		"/home/pgf/Desktop/what.py",
+		"/home/pgf/Desktop/shitcodes/serverstuff.php",
+		"/home/pgf/Downloads/javascriptform.html",
+		"/home/pgf/Desktop/shitcodes/homework11.py",
+		"/home/pgf/Desktop/shitcodes/deleter.py",
+		"/home/pgf/Desktop/python code/back again/2/makeinheratince.py",
+		"/home/pgf/Downloads/index.html",
+		"/home/pgf/Desktop/python code/back again/whatever13.py",
+		"/home/pgf/Desktop/shitcodes/somecsharp.cs",
+		"/home/pgf/Desktop/shitcodes/somecode.cpp",
+		"/home/pgf/Desktop/python code/back again/untitled",
+		"/home/pgf/checker.py",
+		"/media/pgf/KINGSTON/System Volume Information/WPSettings.dat",
+		"/media/pgf/KINGSTON/System Volume Information/IndexerVolumeGuid",
+		"/home/pgf/Desktop/shitcodes/chall.py",
+		"/home/pgf/Desktop/shitcodes/idontknow2.py",
+		"/home/pgf/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/sys/block/loop0/power/autosuspend_delay_ms",
+		"/boot/grub/fonts/unicode.pf2",
+		"/boot/grub/unicode.pf2",
+		"/home/pgf/Desktop/shitcodes/idontknow.dart",
+		"/home/pgf/Desktop/mymovies.py",
+		"/home/pgf/Desktop/littletranslator.py",
+		"/home/pgf/Desktop/pdf.py",
+		"/home/pgf/Desktop/mypdfTranslator.py",
+		"/home/pgf/Desktop/myapi/mymovies.py",
+		"/home/pgf/.swp",
+		"/home/pgf/.pulse-cookie",
+		"/home/pgf/jjjj.py",
+		"/home/pgf/mathem.py",
+		"/home/pgf/Desktop/python code/back again/moneywebsites.py",
+		"/home/pgf/Desktop/python code/back again/dict.py",
+		"/home/pgf/Desktop/myapi/newone.py",
+		"/home/pgf/Desktop/myapi/trywebsite.py",
+		"/home/pgf/Desktop/mystuff.zip",
+		"/home/pgf/.ICEauthority",
+		"/home/pgf/Desktop/python code/back again/1homework.py",
+		"/home/pgf/Desktop/python code/back again/homeworkss.py",
+		"/home/pgf/Desktop/breakingCC.py",
+		"/home/pgf/Downloads/kutub-pdf.net-yukXod.pdf",
+		"/var/www/html/kurself/bootstrap/app.php",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/macmillan/ielts/useraudio/.nomedia",
+		"/home/pgf/.cache/.fr-9fS41f/mystuff/myapi/mymovies.py",
+		"/home/pgf/Desktop/trytoread.py",
+		"/home/pgf/.cache/flatpak/system-cache/summaries/flathub",
+		"/home/pgf/.cache/cs_backgrounds/e6818a4891905b06f6c09d3bb1268e95ac6a1b40v2",
+		"/home/pgf/.cache/cs_backgrounds/8a198a3627ba757e5aea9955f06d1aaed35ebe00v2",
+		"/home/pgf/.cache/xreader/soup.cache2",
+		"/home/pgf/Downloads/uget_2.2.1-0ubuntu0~xenial_amd64.deb",
+		"/home/pgf/Downloads/dummies-guide-compiler-design.rar",
+		"/home/pgf/Desktop/python code/back again/exercise.py",
+		"/home/pgf/Desktop/python code/day10/my squares.py",
+		"/home/pgf/Desktop/python code/day3/spirals.py",
+		"/home/pgf/Downloads/hacking-dummies-6th.rar",
+		"/home/pgf/Downloads/Tarzan/TARZAN.mdf",
+		"/tmp/mozilla_pgf0/cryptography-sums.rar",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/Android/.System.Settings/54",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/Android/obb/.nomedia",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/Android/LOST.DIR/._LOST_.DATA.B",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/Android/data/com.miui.daemon/files/e2escenario_stats/٢٠١٨١٠١٤.e2escenariostats",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/Android/data/com.miui.daemon/files/jank_inspector/٢٠١٨١٠١٤.jank",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/Android/data/com.miui.daemon/files/heart_beat/٢٠١٨١٠١٤.beat",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/Android/data/com.miui.daemon/files/launch_time/٢٠١٨١٠١٤.launch",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/Android/data/com.miui.daemon/files/graphics_stats/٢٠١٨١٠١٤.graphics.daily",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/Android/data/com.miui.daemon/files/activity_stats/٢٠١٨١٠١٤.activity",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/Android/data/com.miui.powerkeeper/files/MiPushLog/log.lock",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/Android/data/com.rabbitmountain.underwatervr/files/Unity/05219561-9ed4-4b25-b02e-dac2c25524b7/Analytics/ArchivedEvents/153942539700002.3e7b1149/e",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/did",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/.SHAREit/.2e09b054ac203f10.cfg",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/.SHAREit/sharezone.cfg",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/.jgads/.log.sf",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/tadabaroo_quran/width_1260/.nomedia",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/MIUI/Gallery/cloud/.cache/photo_blob.0",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/MIUI/Gallery/cloud/.cache/micro_thumbnail_blob.0",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/LogN/super/sp",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/baidu/.cuid",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/baidu/AndroidStore/channel",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/filedownloader/my.down.user/TEMPDir/(51)null",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/Download/androidnetspoof-2.3.0.apk",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/WhatsApp/Databases/msgstore.db.crypt12",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/DCIM/.2e09b054ac203f10.cfg",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/dctp",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/DCIM/.tmfs/sk_v.dat",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/DCIM/.thumbnails/.thumbdata4--1967290299",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/WhatsApp/Media/WhatsApp Animated Gifs/Private/.nomedia",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/U_DATA_X/8135180079",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/Android/data/io.voodoo.goplane1/files/Unity/9eed6f05-7bd8-4685-9d69-b20b52bc5cbe/Analytics/config",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/Android/data/io.voodoo.goplane1/files/Unity/9eed6f05-7bd8-4685-9d69-b20b52bc5cbe/Analytics/values",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/Android/data/com.ketchapp.domino/files/Unity/e0e51249-6060-481a-a901-2e09fc8690e9/Analytics/ArchivedEvents/153882387200000.bbaf275e/e",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/Android/data/com.google.android.apps.translate/files/olpv3/v5/25/r24/dict.ar_en_25/merged_dict_ar_en_25_both.bin",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/Android/data/com.duolingo/files/.fcaches/fileStreamCacheDownloaderTmp/2/2f0b54efbbfd656a",
+		"/home/pgf/Desktop/hello.py",
+		"/home/pgf/Desktop/python code/day8/MfunctionsD.py",
+		"/home/pgf/.cache/.fr-qrTW3J/mystuff/myapi/mymovies.py",
+		"/home/pgf/.cache/.fr-2IDa5y/mystuff/myapi/newone.py",
+		"/home/pgf/Desktop/tensortry.py",
+		"/home/pgf/forAttempt/mydjangosandbox/mmm/mmm/urls.py",
+		"/home/pgf/forAttempt/mydjangosandbox/mmm/mmm/settings.py"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"print",
+			"UserController",
+			"num_of_obs",
+			"hi",
+			"ht",
+			"get_location",
+			"thrownArrow",
+			"object",
+			"t2",
+			"t1",
+			"reached2",
+			"adding",
+			"addingForm",
+			"    ",
+			"id",
+			"  \n",
+			"log",
+			"myPopup2",
+			"showmebyid",
+			"addingrow",
+			"adding",
+			"showmebyid",
+			"readonly",
+			"myPopup",
+			"#customers",
+			"theis",
+			"data[0]",
+			"\"",
+			"tbody",
+			",\n",
+			"required",
+			"inline"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Bird",
+			"Particle",
+			"thrownArrow",
+			"object",
+			"target",
+			"",
+			"myPopupReadonly",
+			"",
+			"realData",
+			"'",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/pgf/Downloads/javascriptform.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6992,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6566,
+								6566
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2662.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/pgf/Downloads/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5300,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1233,
+								1235
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 308.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/pgf/Downloads/showbyid.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7578,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7238,
+								7238
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3960.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/pgf/Downloads/destroyeverywhatever.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10797,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7591,
+								7591
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/pgf/Downloads/iscol.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								171,
+								171
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 206.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 144.0
+	},
+	"pinned_build_system": "",
+	"project": "kurself",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/myapi/newone.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
