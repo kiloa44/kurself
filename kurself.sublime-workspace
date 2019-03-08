@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"rand",
+				"random_proxy"
+			],
+			[
+				"sit",
+				"site_missing"
+			],
+			[
+				"new_",
+				"new_proxy"
+			],
+			[
 				"time",
 				"time1"
 			],
@@ -502,18 +514,6 @@
 			[
 				"tgt",
 				"tgtPorts"
-			],
-			[
-				"tgtpor",
-				"tgtPorts"
-			],
-			[
-				"po",
-				"portScaner"
-			],
-			[
-				"tg",
-				"tgtHost"
 			]
 		]
 	},
@@ -552,6 +552,17 @@
 			{
 				"buffer_size": 10797,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "import turtle,random,time,thread\n#turtle.tracer(0,0)\n\nlist_of_obs = []\nnum_of_obs = -1\n\nscore = turtle.Turtle()\nscore.ht()\n\ntimeForThread = time.time()\n\nclass game(turtle.Turtle):\n\tdef __init__(self,backpic,status):\n\t\tsuper(game, self).__init__()\n\t\tself.ht()\n\t\tself.backpic = backpic\n\t\tself.my_screen = turtle.Screen()\n\t\tself.status = status\n\n\tdef set_place(self,thing,penStatus,to_x,to_y):\n\t\tif penStatus == \"up\":\n\t\t\tthing.penup()\n\t\t\tthing.goto(to_x,to_y)\n\t\telif penStatus == \"down\":\n\t\t\tthing.penup()\n\t\t\tthing.goto(to_x,to_y)\n\t\t\tthing.pendown()\n\tdef set_env(self):\n\t\tself.my_screen.bgcolor(\"Red\")\n\t\tself.my_screen.bgpic(self.backpic)\n\n\n\tdef get_screen(self):\n\t\treturn self.my_screen\n\n\tdef reached(self,target, Bird, ysize1, ysize2, xsize1, xsize2):\n\t\ty_1 = target.ycor() - ysize1\n\t\ty_2 = target.ycor() + ysize2\n\t\tx_1 = target.xcor() - xsize1\n\t\tx_2 = target.xcor() + xsize2\n\t\tcheck = []\n\t\tif Bird.ycor() > y_1 and Bird.ycor() < y_2:\n\t\t\tcheck.append(1)\n\t\telse:\n\t\t\tcheck.append(0)\n\t\tif Bird.xcor() > x_1 and Bird.xcor() < x_2:\n\t\t\tcheck.append(1)\n\t\telse:\n\t\t\tcheck.append(0)\n\t\tif sum(check) == 2:\n\t\t\tprint(\"reached\")\n\t\t\treturn True\n\t\telse:\n\t\t\t# print(\"didn't reached\")\n\t\t\treturn False\n\n\n\n\t# def IsCollision(self,t1,t2):\n\t# \tdistance = math.sqrt(math.pow(t1.xcor() - t2.xcor(),2) + math.pow(t1.ycor() - t2.ycor(),2))\n\t# \tif distance < 50:\n\t# \t\treturn True\n\t# \telse:\n\t# \t\treturn False\n\t\n\n\t# while self.status:\n\t# \tcheckIfReached()\t\t\n\n#################################################\nclass Player(turtle.Turtle):\n\t\"\"\"docstring for Player\"\"\"\n\tdef __init__(self,picture):\n\t\tsuper(Player, self).__init__()\n\t\t# self.playerScreen = playerScreen\n\t\tself.left(90)\n\t\tself.shape(picture)\n\t\t# self.pressedSpace = False\n\n\tdef get_location(self):\n\t\treturn {\"x\":self.xcor(),\"y\":self.ycor()}\n\n\tdef movement(self):\n\t\tself.forward(50)\n\t\t# print(\"in movement\")\n\n\tdef grounded(self):\n\t\tif self.ycor()>-350:\n\t\t\t# print(\"it is False\")\n\t\t\treturn False\n\t\telse:\n\t\t\t# print(\"it is True\")\n\t\t\treturn True\n\tdef skied(self):\n\t\tif self.ycor()>350:\n\t\t\t# print(\"skied is True\")\n\t\t\treturn True\n\t\telse:\n\t\t\t# print(\"skied is False\")\n\t\t\treturn False\n\n\nclass obstacle(turtle.Turtle):\n\tdef __init__(self, picture,Bspeed,obScreen):\n\t\tsuper(obstacle, self).__init__()\n\t\tself.penup()\n\n\t\tself.obScreen = obScreen\n\t\tself.picture = picture\n\n\t\tself.obScreen.addshape(self.picture)\n\t\tself.shape(self.picture)\n\n\t\tself.Bspeed = Bspeed\n\n\tdef move(self):\n\t\tself.forward(self.Bspeed)\n\t\t\n\tdef get_location(self):\n\t\t# print(self.xcor(),self.ycor())\n\t\treturn {\"x\":self.xcor(),\"y\":self.ycor()}\n\nclass obstacles():\n\tdef __init__(self,obsScreen):\n\t\tself.obsScreen= obsScreen\n\t\tprint(\"list_of_obs\")\n\t\tlist_of_obs.append(self)\n\t\t\n\t\tglobal num_of_obs\n\t\tnum_of_obs2 = num_of_obs\n\t\tnum_of_obs = num_of_obs2+1\n\t\tprint(\"num_of_obs \"+str(num_of_obs))\n\t\tself.first_block = obstacle(\"pipeUp.gif\",5,self.obsScreen)\n\t\tself.first_block.speed(0)\n\t\tlocation = self.first_block.get_location()\n\t\tself.first_block.goto(location[\"x\"]+160,location[\"y\"]-500+random.randint(20,70))\n\t\t\n\t\tself.second_block = obstacle(\"pipeDown.gif\",5,self.obsScreen)\n\t\tself.second_block.speed(0)\n\t\tlocation2 = self.second_block.get_location()\n\t\tself.second_block.goto(location2[\"x\"]+160,location2[\"y\"]+500+random.randint(20,70))\n\n\tdef move(self):\n\t\tself.first_block.forward(-10)\n\t\tself.second_block.forward(-10)\n\n\n\n\n\n\n\n\n\n\nsomeGame = game(\"flappyBackground.png\",True)\ngameScreen = someGame.get_screen()\n\ngameScreen.addshape(\"flappybird.gif\")\nsomeGame.set_env()\n\nnewPlayer = Player(\"flappybird.gif\")\nsomeGame.set_place(newPlayer,\"up\",-150,-50)\ntime1 =time.time()\n#print\"under time\"\n\ndef createObstacles(gameScreen):\n\tglobal timeForThread\n\ttimeForThread2 = timeForThread\n\tif ((time.time()-timeForThread2)>10):\n\t\tlist_of_obs[num_of_obs-1].first_block.ht()\n\t\tlist_of_obs[num_of_obs-1].second_block.ht()\n\t\tprint(list_of_obs[num_of_obs-1])\n\t\tdel list_of_obs[num_of_obs-1]\n\t# print ('the time is ',timeForThread,timeForThread2)\n\tif ((time.time()-timeForThread2)>2):\n\t\tobstacler = obstacles(gameScreen)\n\t\tprint(\"surprisly here\",timeForThread)\n\t\ttimeForThread = time.time()\n\telse:\n\t\treturn 0\n\t# time.sleep(1)\n\t# print\"Now this surprised me\"\n\t\n\n\ngameScreen.listen()\n\nwhile someGame.status:\n\t#print(\"entered game loop\",list_of_obs,num_of_obs)\n\t# someGame.reached(obstacler.first_block,newPlayer,0)\n\tgameScreen.onkey(newPlayer.movement,\"space\")\n\t#print(\"on thread\")\n\tcreateObstacles(gameScreen)\n\t#print(\"under thread\")\n\ttry:\n\t\tLastObs = list_of_obs[num_of_obs]\n\t\tif (someGame.reached(LastObs.first_block,newPlayer,397,396,69,69) or\n\t\t\tsomeGame.reached(LastObs.second_block,newPlayer,397,396,69,69)):\n\t\t\tscore.write(str(int(time.time()-time1)),False,align=\"center\", font=(\"Arial\", 40, \"normal\"))\n\t\t\tsomeGame.status = False\n\t\tLastObs.move()\n\t\tlist_of_obs[num_of_obs-1].move()\n\t\tlist_of_obs[num_of_obs-2].move()\n\texcept Exception as e:\n\t\tpass\n\n\tif not newPlayer.grounded():\n\t\tnewPlayer.forward(-1)\n\t\tplayerlocation = newPlayer.get_location()\n\t\tif (playerlocation[\"y\"] <= -345):\n\t\t\tsomeGame.set_place(newPlayer,'up',-150,-339)\n\t\n\nturtle.done()",
+			"file": "/home/pgf/Desktop/python code/back again/flappy games/flappyGame.py",
+			"file_size": 5024,
+			"file_write_time": 131956748141027519,
+			"settings":
+			{
+				"buffer_size": 5023,
 				"line_ending": "Unix"
 			}
 		},
@@ -664,6 +675,13 @@
 	],
 	"file_history":
 	[
+		"/home/pgf/Desktop/usbstuff/insert in 100bb dist/Boot/BOOTSTAT.DAT",
+		"/home/pgf/Downloads/passwordstuff.py",
+		"/home/pgf/sherlock/sherlock/sherlock.py",
+		"/home/pgf/.config/ICQ/logs/0000000000000028.net.txt",
+		"/home/pgf/Desktop/mystartup.py",
+		"/bin/bash",
+		"/usr/share/backdoor-factory/asm/build.py",
 		"/home/pgf/Desktop/python code/back again/flappy games/flappyGame.py",
 		"/home/pgf/Desktop/firefox.desktop",
 		"/var/www/html/kurself/routes/api.php",
@@ -690,7 +708,6 @@
 		"/home/pgf/Desktop/cryp.py",
 		"/home/pgf/Desktop/python code/day8/homework2.py",
 		"/etc/python2.7/sitecustomize.py",
-		"/home/pgf/Desktop/mystartup.py",
 		"/var/www/html/kurself/vendor/laravel/framework/src/Illuminate/Notifications/Messages/BroadcastMessage.php",
 		"/home/pgf/Downloads/updaedata.html",
 		"/var/www/html/serverstuff.php",
@@ -785,13 +802,7 @@
 		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/Android/data/com.ketchapp.domino/files/Unity/e0e51249-6060-481a-a901-2e09fc8690e9/Analytics/ArchivedEvents/153882387200000.bbaf275e/e",
 		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/Android/data/com.google.android.apps.translate/files/olpv3/v5/25/r24/dict.ar_en_25/merged_dict_ar_en_25_both.bin",
 		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C006%5D/السعة التخزينية المشتركة الداخلية/Android/data/com.duolingo/files/.fcaches/fileStreamCacheDownloaderTmp/2/2f0b54efbbfd656a",
-		"/home/pgf/Desktop/hello.py",
-		"/home/pgf/Desktop/python code/day8/MfunctionsD.py",
-		"/home/pgf/.cache/.fr-qrTW3J/mystuff/myapi/mymovies.py",
-		"/home/pgf/.cache/.fr-2IDa5y/mystuff/myapi/newone.py",
-		"/home/pgf/Desktop/tensortry.py",
-		"/home/pgf/forAttempt/mydjangosandbox/mmm/mmm/urls.py",
-		"/home/pgf/forAttempt/mydjangosandbox/mmm/mmm/settings.py"
+		"/home/pgf/Desktop/hello.py"
 	],
 	"find":
 	{
@@ -809,6 +820,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"repeat",
+			"noreapeat",
+			"output",
 			"print",
 			"UserController",
 			"num_of_obs",
@@ -869,7 +883,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -899,7 +913,7 @@
 						"translation.y": 2662.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -927,7 +941,7 @@
 						"translation.y": 308.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -957,7 +971,7 @@
 						"translation.y": 3960.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -987,11 +1001,40 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
+					"file": "/home/pgf/Desktop/python code/back again/flappy games/flappyGame.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5023,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5009,
+								5009
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4224.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "/home/pgf/Downloads/iscol.py",
 					"semi_transient": false,
 					"settings":
@@ -1015,7 +1058,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
